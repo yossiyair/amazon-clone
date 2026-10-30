@@ -7,7 +7,7 @@ export type CartItem = {
   deliveryOption: DeliveryOption;
 };
 
-type SelectedOption = {
+export type SelectedOption = {
   name: string;
   value: string;
 };
