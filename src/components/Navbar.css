@@ -1,0 +1,192 @@
+.navbar-main {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 40px;
+  background-color: #142239;
+}
+
+.navbar-menu-button {
+  display: none;
+}
+
+.navbar-categories {
+  display: flex;
+  width: 500px;
+  border: solid;
+  font-size: 14px;
+}
+
+.navbar-announcement {
+  display: flex;
+  align-items: center; 
+  
+  background-color: #0B172A;
+  color: #B7C3D4;
+  font-size: 12px;
+  font-weight: 500;
+  height: 80px;
+  padding: 0 40px;
+  gap: 8px;
+}
+
+.navbar-logo {
+  display: flex;
+  gap: 10px;
+
+  text-decoration: none;
+}
+
+.navbar-logo-mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #FFB54A;
+  color: #0B172A;
+  font-weight: bold;
+  font-size: 21px;
+
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 11px;
+  
+}
+
+.navbar-logo-text {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar-search {
+  background-color: white;
+  width: 735px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+.navbar-search input {
+  background-color: white;;
+  flex: 1;
+  border: none;
+}
+
+.navbar-search-icon {
+  margin-left: 10px;  
+}
+
+.navbar-search-category {
+  background-color: #F3F5F8;
+  border: none;
+  width: 104px;
+  height: 36px;
+  padding: 9px;
+  border-radius: 6px;
+}
+
+.navbar-search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #FFB54A;
+  width: 90px;
+  height: 16px;
+  border-radius: 7px;
+  border: none;
+  overflow: hidden;
+  padding: 17px 16px;
+}
+
+.navbar-search-icon-button {
+  width: 19px;
+  height: 19px;
+
+  filter: brightness(0);
+}
+
+.navbar-account {
+  display: flex;
+  width: 109px;
+  height: 48px;
+  gap: 9px;
+
+  text-decoration: none;
+}
+
+.navbar-account-greeting {
+  color: #B7C3D4;
+  font-size: 10px;
+}
+
+.navbar-account-label {
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.navbar-account-logo {
+  width: 23px;
+  height: 23px;
+  align-self: center;
+}
+
+.navbar-account-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.navbar-right-section {
+  display: flex;
+  margin-left: auto;
+}
+
+.navbar-cart-container {
+  display: flex;
+  align-items: center;
+
+  width: 90px;
+  height: 48px;
+  gap: 16px;
+}
+
+.navbar-cart-icon-container {
+  position: relative;
+}
+
+.navbar-cart-icon {
+  width: 34px;
+  height: 36px;
+}
+
+.navbar-cart-text {
+  color: white;
+}
+
+.navbar-cart {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navbar-cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  
+  background-color: #FFB54A;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
