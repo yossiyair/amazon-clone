@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(4, 220px);
   gap: 8px;
+  justify-content: center;
 }
 
 .product-rating {
