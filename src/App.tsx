@@ -2,11 +2,12 @@ import { useState, useEffect } from "react";
 import { getProducts } from "./services/productService"
 import type { Product } from "./types/product";
 import type { CartItem, SelectedOption } from "./types/cart";
+import { Navbar } from "./components/Navbar";
 import { ProductsGrid } from "./components/ProductsGrid";
 
 function App() {
   const [products, setProducts] = useState<Product[]>([]);
-  const [, setCart] = useState<CartItem[]>([]);
+  const [cart, setCart] = useState<CartItem[]>([]);
 
   function handleAddToCart(productId: string, quantity: number, selectedOptions: SelectedOption[]) {
 
@@ -61,6 +62,9 @@ function App() {
 
   return (
     <>
+      <Navbar 
+        cart={cart}
+      />
       <ProductsGrid
         products={products}
         onAddToCart={handleAddToCart}
